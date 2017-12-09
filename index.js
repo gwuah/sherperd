@@ -46,3 +46,15 @@ train.on('tweet', tweet => {
   }
 
 });
+
+// PLACE YOUR ADVERTISEMENT HERE
+const advertisement = " ---> Follow @shopaholicks";
+const advert = sherperd.stream('statuses/filter', { track: '#wxlgy' });
+// sample ----- `#wxlgy/KiddBubu/939235927595069445`
+
+advert.on("tweet", (tweet) => {
+    [ hashtag, username, reply_id ] = tweet.text.split("/");
+    sherperd.ad_reply({ id_str: reply_id, screen_name: username, message: advertisement })
+        .then(res => console.log(`replied to tweet ${res[1].id_str}`))
+        .catch(err => console.error(err))
+})
