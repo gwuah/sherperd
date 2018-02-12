@@ -1,9 +1,9 @@
 module.exports = {
 	keys: {
-		consumer_key: "8Qvtc4uE2aVeRnQ0c1WMMBm2o",
-    consumer_secret: "JVMdC3WNs6ytxIT7itJU4icOZuCC4rPjaZSseqZigALPD0Pbzr",
-    access_token: '822769558931079169-eycjRZ8Yb9LTV7MSUASVWmpuqmzX5iV',
-    access_token_secret: 'FmEJf5U9OlWv7bkcNPwszAPo8euB3ZUQTZHcn0dn56Loi'
+		consumer_key: "",
+    consumer_secret: "",
+    access_token: '',
+    access_token_secret: ''
   },
 
   me: { 
