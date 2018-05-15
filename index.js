@@ -45,6 +45,7 @@ train.on('tweet', tweet => {
   	sherperd.hndleTwit(tweet)
   } else if (tweet.user.id_str === drivers.claeusdev.user_id) {
 
+    // Handle tweets from claeusdev
     console.log(`@claeusdev --  ${tweet.text}`)
 
 
