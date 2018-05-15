@@ -43,6 +43,12 @@ train.on('tweet', tweet => {
   	console.log(`@trevor --  ${tweet.text}`)
 
   	sherperd.hndleTwit(tweet)
+  } else if (tweet.user.id_str === drivers.claeusdev.user_id) {
+
+    console.log(`@claeusdev --  ${tweet.text}`)
+
+
+    sherperd.hndleTwit(tweet)
   }
 
 });
