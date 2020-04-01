@@ -1,10 +1,19 @@
-Sherperd :guardsman: 
+# Sherperd :guardsman: 
 
 A twitter account growth service that I was building.<br>
 
-Documentation might come soon, but if it doesnt, figure out what this beauty does on your own.<br>
-You'll need some apikeys for auth from twitter.<br>
-Check config.js for help
+# Concept
+
+It operates on a simple concept, there are power accounts (one's with large following)<br/>
+So when they tweet, you quickly reply with a tweet (asking for people to follow you)<br/>
+When they follow you, you follow back.<br/>
+Also there's functionality to find people who only follow to unfollow so you can trim unfaithful followers<br/>
+
+# Understanding
+
+Check  `config.js` and `index.js` for help. (It's documented)
+
+# How to run
 
 Run your ``` npm install ```
 
